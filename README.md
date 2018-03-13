@@ -276,7 +276,7 @@ face_landmarks_list = face_recognition.face_landmarks(image)
 # face_landmarks_list[0]['left_eye'] would be the location and outline of the first person's left eye.
 ```
 
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
+See [this example](https://github.com/himanshudiv/face_recog/blob/master/examples/find_facial_features_in_picture.py)
  to try it out.
 
 ##### Recognize faces in images and identify who they are
@@ -302,12 +302,12 @@ else:
     print("It's not a picture of me!")
 ```
 
-See [this example](https://github.com/ageitgey/face_recognition/blob/master/examples/recognize_faces_in_pictures.py)
+See [this example](https://github.com/himanshudiv/face_recog/blob/master/examples/recognize_faces_in_pictures.py)
  to try it out.
 
 ## Python Code Examples
 
-All the examples are available [here](https://github.com/ageitgey/face_recognition/tree/master/examples).
+All the examples are available [here](https://github.com/himanshudiv/face_recog/tree/master/examples).
 
 
 #### Face Detection
@@ -383,12 +383,4 @@ Solution: The version of `scipy` you have installed is too old. You need version
 
 ## Thanks
 
-* Many, many thanks to [Davis King](https://github.com/davisking) ([@nulhom](https://twitter.com/nulhom))
-  for creating dlib and for providing the trained facial feature detection and face encoding models
-  used in this library. For more information on the ResNet that powers the face encodings, check out
-  his [blog post](http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html).
-* Thanks to everyone who works on all the awesome Python data science libraries like numpy, scipy, scikit-image,
-  pillow, etc, etc that makes this kind of stuff so easy and fun in Python.
-* Thanks to [Cookiecutter](https://github.com/audreyr/cookiecutter) and the
-  [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template
-  for making Python project packaging way more tolerable.
+
